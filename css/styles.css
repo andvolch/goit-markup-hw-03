@@ -1,0 +1,226 @@
+:root{
+  --main-background-color: #ffffff;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #FFFFFF;
+  --akcent-color: #2196F3;
+  --main-font: Roboto, sans-serif;
+  --minor-font: Raleway, sans-serif;
+  --spacing: 0.03em;
+ 
+
+}
+.page-body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  letter-spacing: var(--spacing);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.webstudio {
+  font-family: var(--minor-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: var(--spacing);
+}
+
+.web {
+  color: var(--akcent-color);
+}
+
+.studio {
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav,.nav-list {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-social-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav-link:hover,.nav-link:focus {
+  color: #188ce8;
+}
+
+.current {
+  color: var(--akcent-color);
+}
+
+.hero {
+  background-color:#2F303A;
+}
+
+.hero-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background-color: var(--akcent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover,.hero-button:focus {
+  background-color: #188ce8;
+}
+
+.button-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: var(--spacing);
+  color: var(--main-text-color);
+  background: #F5F4FA;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--akcent-color);
+  color: var(--white-text-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+} 
+.basement {
+  background-color: #2F303A;
+}
+
+.footer-studio {
+  color: var(--white-text-color);
+}
+
+.footer-list {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--spacing);
+  color: #FFFFFF;
+}
+
+.social-list {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: var(--spacing);
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
+.text {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: var(--spacing);
+  color: var(--secondary-text-color);
+}
+
+.specialist-name {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: var(--spacing);
+  color: var(--main-text-color);
+}
+
+.name-project {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.worktype {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88x;
+  letter-spacing: var(--spacing);
+  color: var(--secondary-text-color);
+}
+
+.profession {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: var(--spacing)
+  color: var(--secondary-text-color);
+}
+
+
+
+
+
+
