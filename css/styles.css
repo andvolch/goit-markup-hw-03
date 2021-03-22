@@ -96,17 +96,14 @@ p {
   align-items: center;
 }
 
-.header-container {
+header {
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #ECECEC;
 }
 
 .nav-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.nav-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .nav,.nav-list {
@@ -152,9 +149,9 @@ p {
 }
 
 /* ГЕРОЙ */
-.hero-container {
-  padding-top: 211px;
-  padding-bottom: 189px;
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero {
@@ -173,16 +170,21 @@ p {
 
 
 /* КНОПКИ */
-.filters-container {
+.filters-section {
   padding-top: 102px;
-  padding-bottom: 50px;
+  
 }
 
+.filters-container {
+  margin-bottom: 50px;
+}
+ 
 .filter-list,
 .button-filter {
   display: flex;
   justify-content: center;
   margin-top: 0;
+  
 }
 
 .button-filter {
@@ -289,13 +291,14 @@ p {
 /* ФУТЕР */
 .basement {
   background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
   display: inline-block;
   justify-content: left;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
 }
 .footer-studio {
   color: var(--white-text-color);
@@ -316,10 +319,13 @@ p {
 
 
 /* ПРИНЦИПЫ */
+.principles-section {
+  padding-top: 94px;
+  padding-bottom: 0;
+}
+
 .principles-list {
   display: flex;
-  padding-top: 105px;
-  padding-bottom: 0;
   margin: 0;
 }
 
@@ -349,8 +355,7 @@ p {
 
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
-
-.work-container {
+.work-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -374,16 +379,14 @@ p {
 
 
 /* НАША КОМАНДА */
-.team-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.team-section {
   padding-top: 94px;
   padding-bottom: 94px;
-
   background-color: #F5F4FA;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .team-list {
   display: flex;
