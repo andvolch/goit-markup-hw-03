@@ -97,8 +97,8 @@ p {
 }
 
 header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -303,14 +303,22 @@ header {
 .footer-studio {
   color: var(--white-text-color);
 }
+.contacts {
+  margin-top: 20px;
+}
 
 .footer-list {
+  margin-top: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: var(--spacing);
   color: #FFFFFF;
+}
+
+.footer-item:not(:last-child){
+  margin-bottom: 9px;
 }
 
 .social-list {
